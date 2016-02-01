@@ -90,9 +90,7 @@ def bestWindowSize(listOfAASeqs,lowWinSize,highWinSize):
     bestWinSize =lowWinSize+wholesum.index(max(wholesum))
     print(bestWinSize)
     return bestWinSize
-    
-x=['RKDNE', 'RKDNE', 'RKDNE']
-bestWindowSize(x, 2, 4)
+
     
     
     
